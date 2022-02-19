@@ -32,11 +32,15 @@ Else
     Sentence = InputBox(Message_1, Title_1, vbOKOnly)
     Times = InputBox(Message_2, Title_2, vbOKOnly)
     MsgBox Message_3, vbOKOnly, Title_3
-    Wscript.Sleep 1000
-    Dim I
-    For I = 1 To Times
-      Key.SendKeys Sentense
+    WScript.Sleep 2000
+
+    For Vertical = 1 To CInt(Times)
+      For Horizontal = 1 To Len(Sentence)
+        Key.SendKeys(Mid(Sentence, Horizontal, 1))
+        WScript.Sleep 40
+      Next
     Next
+
     Reuse = MsgBox(Message_4, vbOKCancel, Title_4)
     If Reuse = vbCancel Then
       WScript.Quit
