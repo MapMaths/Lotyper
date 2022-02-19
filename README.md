@@ -9,3 +9,8 @@ Enjoy its convenience typing letters! :D
 
 The name "Lotyper" come from "Loop Typer", pronounced as /lɒ'taɪpə/.
 "Lotype", a verb from the instructions, come from "Looply Type", the same meaning as repeat, pronounced as /lɒ'taɪp/.
+
+## Update Log
+
+**v1.0.0** *19 Feb, 2022*
+1. Completely Relesed.
