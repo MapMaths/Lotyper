@@ -1,7 +1,7 @@
 # Lotyper
 
 1. Firstly, open [setup.bat](setup.bat) in order to set your Windows Script Host to [WScript.exe](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/wscript).
-2. Then, run [app.vbs](app.vbs) and follow the instructions.
+2. Then, run [lotyper.vbs](lotyper.vbs) and follow the instructions.
 
 Enjoy its convenience typing letters! :D
 
