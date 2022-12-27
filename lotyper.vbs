@@ -10,7 +10,7 @@ Dim Reuse
 Set Key = WScript.CreateObject("WScript.Shell")
 
 Private Const Message_Setup_1 = "Welcome to Lotyper :D"
-Private Const Message_Setup_2 = "Firstly, open yourtext area."
+Private Const Message_Setup_2 = "Firstly, open your text area."
 Private Const Message_Setup_3 = "Then press OK to continue and follow the instructions."
 Private Const Message_Setup_4 = "Have a good time using Lotyper!"
 Private Const Message_1 = "Now input the sentence tou want to Lotype."
